@@ -26,5 +26,11 @@ namespace GitHub.Controllers
 
             return View();
         }
+        public ActionResult Index2()
+        {
+            ViewBag.Message = "Your contact page2.";
+
+            return View();
+        }
     }
 }
